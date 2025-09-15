@@ -5,9 +5,16 @@
 
 Ex: image input > midjourney "animate image" > mp4 > slice into frames
 ```bash
-ffmpeg -i ../bg_0_test.mp4 -vf "fps=4" bg_0_%04d.png
+ffmpeg -i ./input/video.mp4 -vf "fps=4" input/video_%04d.png
 ```
 
+## Convert jpeg to png
+
+```bash
+magick img.jpeg img.png
+```
+
+```bash
 ## Remove background from images
 
 ```bash
