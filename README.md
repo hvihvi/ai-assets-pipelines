@@ -21,3 +21,8 @@ magick img.jpeg img.png
 node remove-bg-batch.mjs . output
 ```
 This will remove all backgrounds for images in `.` and save them in `output` folder.
+
+or
+```bash
+./rm_bg_magick.sh
+```
