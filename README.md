@@ -26,3 +26,13 @@ or
 ```bash
 ./rm_bg_magick.sh
 ```
+
+## Use Aseprite CLI
+
+Add Aseprite to PATH:
+
+```bash
+# vim ~/.zshrc
+# then add
+export PATH="$PATH:/Applications/Aseprite.app/Contents/MacOS"
+```
