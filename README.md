@@ -27,6 +27,12 @@ or
 ./rm_bg_magick.sh
 ```
 
+## Batch: Video to PNG sequence
+```bash
+./video_to_png_seq.sh ./video.mp4
+```
+
+
 ## Use Aseprite CLI
 
 Add Aseprite to PATH:
